@@ -1,0 +1,39 @@
+.title {
+    -unity-font: url('project://database/Library/unity%20default%20resources?fileID=10102&guid=0000000000000000e000000000000000&type=0#Arial');
+    font-size: 25px;
+    -unity-text-align: upper-center;
+    top: auto;
+}
+
+.button-style {
+    height: 38px;
+    width: 113px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(39, 152, 236, 255);
+    color: rgba(255, 255, 255, 255);
+}
+
+.button-style:hover {
+    height: 38px;
+    width: 113px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(39, 89, 236);
+    color: rgb(255, 255, 255);
+}
+
+.button-style:active {
+    height: 38px;
+    width: 113px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(4, 25, 89);
+    color: rgb(255, 255, 255);
+}

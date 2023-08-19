@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheet.uss?fileID=7433441132597879392&amp;guid=9d34c86f1c74e0d408c5c74eb85891e8&amp;type=3#Stylesheet" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="main_menu_container" style="background-color: rgb(255, 255, 255); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; width: auto; flex-grow: 0;">
+            <ui:GroupBox name="Title" style="margin-bottom: 0; margin-top: 2px; margin-left: auto; margin-right: auto; padding-bottom: 50px;">
+                <ui:Label text="Light Puzzle" display-tooltip-when-elided="true" class="title" style="position: relative; top: 20px;" />
+                <ui:Label text="Try to turn all of the lights on!" display-tooltip-when-elided="true" style="position: relative; top: 20px; align-items: center; justify-content: center;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="inner_container" style="align-items: flex-start; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+                <ui:GroupBox name="difficulty_container" style="height: auto; width: auto;">
+                    <ui:DropdownField label="Difficulty" index="0" choices="Easy (3x3), Normal (4x5), Hard (5x6)" name="difficulty_dropdown" tooltip="Select from a 3x3, a 5x5, or 9x9 grid." style="flex-grow: 1;" />
+                </ui:GroupBox>
+                <ui:GroupBox name="color_selector_container" style="flex-direction: row; height: auto; width: auto; justify-content: flex-start; align-items: center;">
+                    <ui:RadioButtonGroup label="On Color" value="1" choices="Red, Green, Blue" name="color_selector_group" style="flex-direction: row; height: auto; width: auto; align-items: center; flex-grow: 0; justify-content: space-around;" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:GroupBox name="start_button_container" style="align-items: center; width: auto;">
+                <ui:Button text="Start" display-tooltip-when-elided="true" name="start_button" class="button-style" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Stylesheet.uss?fileID=7433441132597879392&amp;guid=9d34c86f1c74e0d408c5c74eb85891e8&amp;type=3#Stylesheet" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="you_win_container" style="height: 230px; width: 345px; background-color: rgb(255, 255, 255); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; justify-content: center; visibility: visible;">
+            <ui:GroupBox>
+                <ui:Label text="You Win!" display-tooltip-when-elided="true" class="title" style="position: relative; top: auto;" />
+            </ui:GroupBox>
+            <ui:GroupBox>
+                <ui:Button text="Restart" display-tooltip-when-elided="true" name="restart_button" enable-rich-text="true" class="button-style" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
